@@ -22,6 +22,7 @@ frontend:
 # Enables configuration UI
 config:
 
+
 http:
   base_url: viendanghoan.duckdns.org
   ssl_certificate: /home/homeassistant/dehydrated/certs/viendanghoan.duckdns.org/fullchain.pem
@@ -70,3 +71,6 @@ cloud:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+sensor:
+- platform: darksky
+  api_key: 8790ebc6e3b65a52d3521e2ae9a2222f
