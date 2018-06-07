@@ -74,3 +74,12 @@ script: !include scripts.yaml
 sensor:
 - platform: darksky
   api_key: 8790ebc6e3b65a52d3521e2ae9a2222f
+  monitored_conditions:
+    - summary
+    - icon
+    - nearest_storm_distance
+    - apparent_temperature
+    - temperature
+    - humidity
+    - pressure
+    - uv_index
