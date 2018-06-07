@@ -38,3 +38,7 @@ light.gateway_light_7811dcb21afe:
   name:
   platform: xiaomi_aqara
   unique_id: rgb7811dcb21afe
+media_player.kdl43w800c:
+  name:
+  platform: cast
+  unique_id: 98e1a8f5-0189-b2f8-5659-e4701e9db72c
